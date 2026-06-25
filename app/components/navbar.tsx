@@ -93,8 +93,8 @@ export default function NavBar() {
                             variants={{ hover: { scale: 1, opacity: 1 } }}
                             transition={{ duration: 0.15, ease: 'easeInOut' }}
                         />
-                        <Link href="/writing" className="relative z-10 text-sm text-black hover:text-white px-3 py-1 block transition-colors">
-                            Writing
+                        <Link href="/blog" className="relative z-10 text-sm text-black hover:text-white px-3 py-1 block transition-colors">
+                            Blog
                         </Link>
                     </motion.div>
                 </div>
